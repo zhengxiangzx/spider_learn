@@ -2,7 +2,7 @@ scrapy 爬虫学习
 spider_learn 目录下的每个目录都是一个单独的项目
 
 ### 命令 创建一个项目
-scrapy startproject myproject
+scrapy startproject tutorial
 
 这将创建一个包含以下内容的tutorial目录：
 tutorial/
@@ -21,3 +21,6 @@ tutorial/
 
         spiders/          # 稍后放置spider的文件夹
             __init__.py
+
+cd tutorial
+scrapy genspider taptap taptap.com
